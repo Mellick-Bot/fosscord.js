@@ -13,7 +13,7 @@ import {
   TimestampStylesString,
   underscore,
   spoiler,
-} from '@discordjs/builders';
+} from 'fosscord.js-builders';
 import { Collection as Coll } from '@discordjs/collection';
 import { ChildProcess } from 'child_process';
 import {
