@@ -113,7 +113,7 @@ class ClientUser extends User {
    * @returns {Presence}
    * @example
    * // Set the client user's presence
-   * client.user.setPresence({ activities: [{ name: 'with fosscord.js' }], status: 'idle' });
+   * client.user.setPresence({ activities: [{ name: 'with fosscord-gopnik' }], status: 'idle' });
    */
   setPresence(data) {
     return this.client.presence.set(data);
@@ -157,7 +157,7 @@ class ClientUser extends User {
    * @returns {Presence}
    * @example
    * // Set the client user's activity
-   * client.user.setActivity('fosscord.js', { type: 'WATCHING' });
+   * client.user.setActivity('fosscord-gopnik', { type: 'WATCHING' });
    */
   setActivity(name, options = {}) {
     if (!name) return this.setPresence({ activities: [], shardId: options.shardId });

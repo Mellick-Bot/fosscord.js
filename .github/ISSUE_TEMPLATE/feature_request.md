@@ -1,7 +1,7 @@
 ---
 
 name: Feature request
-about: Request a feature for the core fosscord.js library
+about: Request a feature for the core fosscord-gopnik library
 title: ''
 labels: 'feature request'
 assignees: ''

@@ -585,5 +585,5 @@ module.exports = Client;
 
 /**
  * @external Collection
- * @see {@link https://fosscord.js.org/#/docs/collection/main/class/Collection}
+ * @see {@link https://fosscord-gopnik.org/#/docs/collection/main/class/Collection}
  */

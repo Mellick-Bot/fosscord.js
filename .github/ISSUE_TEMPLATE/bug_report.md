@@ -1,7 +1,7 @@
 ---
 
 name: Bug report
-about: Report incorrect or unexpected behavior of fosscord.js
+about: Report incorrect or unexpected behavior of fosscord-gopnik
 title: ''
 labels: 'bug, need repro'
 assignees: ''
@@ -19,7 +19,7 @@ assignees: ''
 
 **Further details:**
 
-- fosscord.js version:
+- fosscord-gopnik version:
 - Node.js version:
 - Operating system:
 - Priority this issue should have – please be realistic and elaborate if possible:

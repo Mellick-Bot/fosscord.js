@@ -2,7 +2,7 @@
   <br />
     <img width="100" src="https://raw.githubusercontent.com/fosscord/fosscord/master/assets/logo_big_transparent.png" />
 </p>
-<h1 align="center">Fosscord.JS</h1>
+<h1 align="center">fosscord-gopnik</h1>
 
 <p>
    <a href="https://discord.gg/ZrnGQP6p3d">
@@ -17,10 +17,10 @@
 
 ## About
 
-fosscord.js is a fork of [fosscord.js](https://fosscord.js.org/) that allows you to easily interact with the
-[Fosscord API](https://docs.fosscord.com/) and is backwards compatible to fosscord.js.
+fosscord-gopnik is a fork of [fosscord-gopnik](https://fosscord-gopnik.org/) that allows you to easily interact with the
+[Fosscord API](https://docs.fosscord.com/) and is backwards compatible to fosscord-gopnik.
 
-### Fosscord.js
+### fosscord-gopnik
 
 - Object-oriented
 - Predictable abstractions
@@ -37,18 +37,18 @@ fosscord.js is a fork of [fosscord.js](https://fosscord.js.org/) that allows you
 **Node.js 16.6.0 or newer is required.**
 
 ```sh-session
-npm install fosscord.js
-yarn add fosscord.js
-pnpm add fosscord.js
+npm install fosscord-gopnik
+yarn add fosscord-gopnik
+pnpm add fosscord-gopnik
 ```
 
-Without voice support: `npm install fosscord.js`  
-With voice support ([@discordjs/opus](https://www.npmjs.com/package/@discordjs/opus)): `npm install fosscord.js @discordjs/opus`  
-With voice support ([opusscript](https://www.npmjs.com/package/opusscript)): `npm install fosscord.js opusscript`
+Without voice support: `npm install fosscord-gopnik`  
+With voice support ([@discordjs/opus](https://www.npmjs.com/package/@discordjs/opus)): `npm install fosscord-gopnik @discordjs/opus`  
+With voice support ([opusscript](https://www.npmjs.com/package/opusscript)): `npm install fosscord-gopnik opusscript`
 
 ### Audio engines
 
-The preferred audio engine is @discordjs/opus, as it performs significantly better than opusscript. When both are available, fosscord.js will automatically choose @discordjs/opus.
+The preferred audio engine is @discordjs/opus, as it performs significantly better than opusscript. When both are available, fosscord-gopnik will automatically choose @discordjs/opus.
 Using opusscript is only recommended for development environments where @discordjs/opus is tough to get working.
 For production bots, using @discordjs/opus should be considered a necessity, especially if they're going to be running on multiple servers.
 
@@ -65,9 +65,9 @@ For production bots, using @discordjs/opus should be considered a necessity, esp
 Install all required dependencies:
 
 ```sh-session
-npm install fosscord.js @discordjs/rest discord-api-types
-yarn add fosscord.js @discordjs/rest discord-api-types
-pnpm add fosscord.js @discordjs/rest discord-api-types
+npm install fosscord-gopnik @discordjs/rest discord-api-types
+yarn add fosscord-gopnik @discordjs/rest discord-api-types
+pnpm add fosscord-gopnik @discordjs/rest discord-api-types
 ```
 
 Register a slash command against the Discord API:
@@ -101,7 +101,7 @@ const rest = new REST({ version: '9' }).setToken('token');
 Afterwards we can create a quite simple example bot:
 
 ```js
-const { Client, Intents } = require('fosscord.js');
+const { Client, Intents } = require('fosscord-gopnik');
 const client = new Client({ intents: [Intents.FLAGS.GUILDS] });
 
 client.on('ready', () => {
@@ -124,10 +124,10 @@ client.login('token');
 - [Website](https://fosscord.com/) ([source](https://github.com/fosscord/fosscord-landingpage))
 - [Documentation](https://docs.fosscord.com) ([source](https://github.com/fosscord/fosscord-docs))
 - [Fosscord Discord server](https://discord.gg/ZrnGQP6p3d)
-- [fosscord.js Guide](https://discordjs.guide/) ([source](https://github.com/discordjs/guide)) - this is still for stable
-- [fosscord.js Discord server](https://discord.gg/ZrnGQP6p3d)
-- [GitHub](https://github.com/fosscord/fosscord.js)
-- [NPM](https://www.npmjs.com/package/fosscord.js)
+- [fosscord-gopnik Guide](https://discordjs.guide/) ([source](https://github.com/discordjs/guide)) - this is still for stable
+- [fosscord-gopnik Discord server](https://discord.gg/ZrnGQP6p3d)
+- [GitHub](https://github.com/fosscord/fosscord-gopnik)
+- [NPM](https://www.npmjs.com/package/fosscord-gopnik)
 
 ### Extensions
 
@@ -136,8 +136,8 @@ client.login('token');
 ## Contributing
 
 Before creating an issue, please ensure that it hasn't already been reported/suggested, and double-check the
-[documentation](https://fosscord.js.org/#/docs).  
-See [the contribution guide](https://github.com/discordjs/fosscord.js/blob/main/.github/CONTRIBUTING.md) if you'd like to submit a PR.
+[documentation](https://fosscord-gopnik.org/#/docs).  
+See [the contribution guide](https://github.com/discordjs/fosscord-gopnik/blob/main/.github/CONTRIBUTING.md) if you'd like to submit a PR.
 
 ## Help
 

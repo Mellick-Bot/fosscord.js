@@ -1,1 +1,1 @@
-## [View the documentation here.](https://fosscord.js.org/#/docs)
+## [View the documentation here.](https://fosscord-gopnik.org/#/docs)
