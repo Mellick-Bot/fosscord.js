@@ -1,7 +1,7 @@
 ---
 
 name: Bug report
-about: Report incorrect or unexpected behavior of discord.js
+about: Report incorrect or unexpected behavior of fosscord.js
 title: ''
 labels: 'bug, need repro'
 assignees: ''
@@ -19,7 +19,7 @@ assignees: ''
 
 **Further details:**
 
-- discord.js version:
+- fosscord.js version:
 - Node.js version:
 - Operating system:
 - Priority this issue should have – please be realistic and elaborate if possible:

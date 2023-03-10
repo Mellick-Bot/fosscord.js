@@ -122,8 +122,8 @@ class Options extends null {
         compress: false,
         properties: {
           $os: 'browser',
-          $browser: 'discord.js',
-          $device: 'discord.js',
+          $browser: 'fosscord.js',
+          $device: 'fosscord.js',
         },
         version: 9,
       },

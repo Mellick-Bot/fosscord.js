@@ -17,8 +17,8 @@
 
 ## About
 
-fosscord.js is a fork of [discord.js](https://discord.js.org/) that allows you to easily interact with the
-[Fosscord API](https://docs.fosscord.com/) and is backwards compatible to discord.js.
+fosscord.js is a fork of [fosscord.js](https://fosscord.js.org/) that allows you to easily interact with the
+[Fosscord API](https://docs.fosscord.com/) and is backwards compatible to fosscord.js.
 
 ### Fosscord.js
 
@@ -124,7 +124,7 @@ client.login('token');
 - [Website](https://fosscord.com/) ([source](https://github.com/fosscord/fosscord-landingpage))
 - [Documentation](https://docs.fosscord.com) ([source](https://github.com/fosscord/fosscord-docs))
 - [Fosscord Discord server](https://discord.gg/ZrnGQP6p3d)
-- [Discord.js Guide](https://discordjs.guide/) ([source](https://github.com/discordjs/guide)) - this is still for stable
+- [fosscord.js Guide](https://discordjs.guide/) ([source](https://github.com/discordjs/guide)) - this is still for stable
 - [fosscord.js Discord server](https://discord.gg/ZrnGQP6p3d)
 - [GitHub](https://github.com/fosscord/fosscord.js)
 - [NPM](https://www.npmjs.com/package/fosscord.js)
@@ -136,8 +136,8 @@ client.login('token');
 ## Contributing
 
 Before creating an issue, please ensure that it hasn't already been reported/suggested, and double-check the
-[documentation](https://discord.js.org/#/docs).  
-See [the contribution guide](https://github.com/discordjs/discord.js/blob/main/.github/CONTRIBUTING.md) if you'd like to submit a PR.
+[documentation](https://fosscord.js.org/#/docs).  
+See [the contribution guide](https://github.com/discordjs/fosscord.js/blob/main/.github/CONTRIBUTING.md) if you'd like to submit a PR.
 
 ## Help
 
