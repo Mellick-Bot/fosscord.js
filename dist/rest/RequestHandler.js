@@ -16,7 +16,7 @@ const RateLimitError = require('./RateLimitError');
 const { Events: { DEBUG, RATE_LIMIT, INVALID_REQUEST_WARNING }, browser, } = require('../util/Constants');
 const Util = require('../util/Util');
 function parseResponse(res) {
-    if (res.headers.get('content-type').startsWith('application/json'))
+    if (res.headers.get('content-type')?.startsWith('application/json'))
         return res.json();
     if (browser)
         return res.blob();

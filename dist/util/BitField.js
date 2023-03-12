@@ -142,7 +142,7 @@ class BitField {
             if (!isNaN(bit))
                 return typeof defaultBit === 'bigint' ? BigInt(bit) : Number(bit);
         }
-        throw new RangeError('BITFIELD_INVALID', bit);
+        //throw new RangeError('BITFIELD_INVALID', bit);
     }
 }
 /**
